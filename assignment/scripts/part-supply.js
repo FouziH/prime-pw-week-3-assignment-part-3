@@ -73,7 +73,8 @@ while(i <= supplyChanges.length){
   i = supplyChanges[0] + supplyChanges[1]+ supplyChanges[2]+ supplyChanges[3]+supplyChanges[4] +supplyChanges[5]
   console.log('9. Total supplies available is:', i);
 }
-///Do while 
+
+let s;
 do{
   s = supplyChanges[0] + supplyChanges[1]+ supplyChanges[2]+ supplyChanges[3]+supplyChanges[4] +supplyChanges[5]
   console.log('9. Total supplies available is:', s);
