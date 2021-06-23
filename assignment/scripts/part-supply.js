@@ -69,7 +69,12 @@ console.log('8. Showing supplyChanges with "while" loop');
 //    adding up all the numbers in the 'supplyChanges' array.
 
 let i =0;
-while(i < supplyChanges.length){
+while(i <= supplyChanges.length){
   i = supplyChanges[0] + supplyChanges[1]+ supplyChanges[2]+ supplyChanges[3]+supplyChanges[4] +supplyChanges[5]
   console.log('9. Total supplies available is:', i);
 }
+///Do while 
+do{
+  s = supplyChanges[0] + supplyChanges[1]+ supplyChanges[2]+ supplyChanges[3]+supplyChanges[4] +supplyChanges[5]
+  console.log('9. Total supplies available is:', s);
+}while(s <= supplyChanges.length)
