@@ -63,12 +63,12 @@ for ( let i of supplyChanges ){
 
 // 8. Rewrite the `for` loop from #6 as a `while` loop.
 console.log ( '8. Showing supplyChanges with "while" loop' );
-let f = 0;
+let f=0;
 while ( f < supplyChanges.length ){
   if ( supplyChanges[f] > 0 ){
-       console.log( `added ${f} parts` );
+       console.log( `added ${supplyChanges[f]} parts` );
   } else if ( supplyChanges[f] < 0 ){
-     console.log( `Removed ${f} parts` );
+     console.log( `Removed ${supplyChanges[f]} parts` );
   } else if ( supplyChanges[f] === 0 ){
     console.log ( `No changes` );
   }
