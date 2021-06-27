@@ -35,8 +35,8 @@ for ( let i=0; i< supplyChanges.length; i++ ){
   // console.log(supplyChanges[i])
 let x = 0;
   if ( supplyChanges[i]> 0 ){
-     x = supplyChanges[i]
-    console.log ( `added ${x} parts` );
+     //x = supplyChanges[i]
+    console.log ( `added ${supplyChanges[i]} parts` );
   } else if (supplyChanges[i] === 0 ){
     x = supplyChanges[i]
     console.log ( `No changes` );
@@ -91,3 +91,11 @@ do {
   s = supplyChanges[0] + supplyChanges[1] + supplyChanges[2] + supplyChanges[3] + supplyChanges[4] + supplyChanges[5];
   console.log ( '9. Total supplies available is:', s );
 } while( s <= supplyChanges.length );
+
+
+//for of Loop
+let sum = 0;
+for(let n of supplyChanges){
+  sum+= n;
+}
+ console.log( '9. Total supplies available is:', sum )
